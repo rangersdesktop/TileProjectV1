@@ -73,8 +73,8 @@ gpt_cond_latent, speaker_embedding = xtts_model.get_conditioning_latents(audio_p
 print("Speaker latents precomputed.")
 
 # Chatbot API details
-CHATBOT_URL = "http://10.0.0.251:5000/v1/chat/completions"
-API_KEY = "8ahbb25u-d7e2-4920-b126-6e3gb35e75fd"
+CHATBOT_URL = "http://yourChatServerIP:5000/v1/chat/completions"
+API_KEY = "yourKeyHere"
 
 class ConversationHistory:
     def __init__(self):
