@@ -35,6 +35,7 @@ sudo apt-get install libsndfile1 libportaudio2 libportaudiocpp0
 
 NOTE: This current version allows you to clone a voice using XTTS. Make sure to download the XTTSv2 model and set the config and voice sample paths
 
+Run the server script:
 source tts-env/bin/activate && python3 serverTest.py
 
 
@@ -51,4 +52,5 @@ python3 /path/to/clientTest.py
 
 You might need to adjust the specified "device = 1" for audio in the client script.
 
+Run the client script:
 python3 clientTest.py
