@@ -23,14 +23,19 @@ https://github.com/oobabooga/text-generation-webui
 My current favorite: "cd text-generation-webui/ && python3 download-model.py LoneStriker/Hermes-3-Llama-3.1-8B-6.0bpw-h6-exl2"
 
 sudo apt-get update
+
 sudo add-apt-repository ppa:deadsnakes/ppa
+
 sudo apt update
+
 sudo apt install python3.11 python3.11-venv python3.11-dev
 
 python3.11 -m venv tts-env
+
 source tts-env/bin/activate
 
 pip3 install asyncio websockets numpy aiohttp torch torchaudio faster-whisper TTS
+
 sudo apt-get install libsndfile1 libportaudio2 libportaudiocpp0
 
 NOTE: This current version allows you to clone a voice using XTTS. Make sure to download the XTTSv2 model and set the config and voice sample paths
