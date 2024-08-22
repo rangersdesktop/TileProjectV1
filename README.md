@@ -1,6 +1,8 @@
 # The client and server scripts for my Tile V1 project
 Low latency AI Voice Chat on a local network (FasterWhisper > Any Chatbot API > XTTS).
 
+**[This is all very much a work in progress! Check my website for details about the project https://rangersdesk.top]**
+
 **Features:**
 It uses a RAG history system with optional default history for things you want your AI to always remember, dynamic keyword based system prompts, Volume based "wakeup" of the client, Allows for instant response after the chatbot has finished to create a more natural conversation, adjustable "chunk target length" for XTTS to ensure the first chunk is always fast but the rest are longer for quality
 
@@ -9,12 +11,13 @@ Audio is streamed from the client and transcribed in chunks by whisper with a sl
 
 Latency for this version with context tends to be around 1.5-2 sec but I'll keep working at it. (Also whisper doesn't have a warm up yet so the first prompt is slower)
 
-**[This is all very much a work in progress! Check my website for details about the project https://rangersdesk.top]**
-
 # **For "serverTest.py":**
 Tested on Ubuntu 24.04 LTS
+
 **Make sure you have Cuda setup before starting:**
+
 pip install nvidia-cublas-cu12 nvidia-cudnn-cu12 --break-system-packages
+
 
 install text-generation-webui and download a model first:
 
