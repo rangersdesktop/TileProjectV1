@@ -11,7 +11,7 @@ Latency for this version with context tends to be around 1.5-2 sec but I'll keep
 
 **[This is all very much a work in progress! Check my website for details about the project https://rangersdesk.top]**
 
-**For "serverTest.py":**
+# **For "serverTest.py":**
 Tested on Ubuntu 24.04 LTS
 **Make sure you have Cuda setup before starting:**
 pip install nvidia-cublas-cu12 nvidia-cudnn-cu12 --break-system-packages
@@ -33,13 +33,13 @@ source tts-env/bin/activate
 pip3 install asyncio websockets numpy aiohttp torch torchaudio faster-whisper TTS
 sudo apt-get install libsndfile1 libportaudio2 libportaudiocpp0
 
-# NOTE: This current version allows you to clone a voice using XTTS. Make sure to download the XTTSv2 model and set the config and voice sample paths
+NOTE: This current version allows you to clone a voice using XTTS. Make sure to download the XTTSv2 model and set the config and voice sample paths
 
 source tts-env/bin/activate && python3 serverTest.py
 
 
 
-**For "clientTest.py":**
+# **For "clientTest.py":**
 Can be run on anything with a microphone. I'm using a raspberry pi but I'll add support for an esp32 later.
 
 sudo apt-get update
