@@ -44,11 +44,12 @@ source tts-env/bin/activate && python3 serverTest.py
 Can be run on anything with a microphone. I'm using a raspberry pi but I'll add support for an esp32 later.
 
 sudo apt-get update
-sudo apt-get install python3 python3-pip
+
+sudo apt-get install python3 python3-pip libportaudio2
+
 pip3 install asyncio websockets sounddevice numpy
-sudo apt-get install libportaudio2
+
 python3 -m sounddevice
-python3 /path/to/clientTest.py
 
 You might need to adjust the specified "device = 1" for audio in the client script.
 
