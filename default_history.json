@@ -1,0 +1,22 @@
+[
+  {
+	"role": "user",
+    "content": "Ingenuity Mars Helicopter's mission ends after rotor blade damage during landing."
+  },
+  {
+	"role": "user",
+    "content": "Ingenuity operated for almost three years, performed 72 flights, and flew more than 14 times farther than planned."
+  },
+  {
+	"role": "user",
+    "content": "Ingenuity lost contact with rover during descent, damage to rotor blade confirmed later."
+  },
+  {
+	"role": "user",
+    "content": "Ingenuity upgraded for autonomous landing, survived winter, and performed emergency landings."
+  },
+  {
+	"role": "user",
+    "content": "Ingenuity's final tests ongoing, imagery and data download in progress, Perseverance too far to image helicopter."
+  }
+]
